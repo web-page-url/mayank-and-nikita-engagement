@@ -73,8 +73,11 @@ Wedding Details:
 - Engagement Date: November 5, 2025
 - Venue: Gymkhana Club, Sector-8, Karnal, Haryana
 - Time: 11:00 AM onwards
-- Mayank's best Friend - Akriti
-- Friends of Nikita - Charanya and Rachita
+- Mayank's brother - Anubhav, Monty, Arpit
+- Mayank's sister - Muskan, Akriti
+- Mayank is the son of Mr. & Mrs. Manoj Kumar and Mrs. Seema Devi
+- Mayank is Post Master at Post Office, 
+- Mayank also do the treatment of Patients in free time.
 - Dress Code: Evening Elegance - Join us in your finest attire to celebrate this magical evening. Think cocktail dresses, elegant suits, and a touch of romance in your style.
 - Theme: Romantic celebration with love, joy, and beautiful memories
 
