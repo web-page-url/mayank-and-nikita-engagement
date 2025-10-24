@@ -13,8 +13,8 @@ const EventDetails = () => {
       title: "Mayank & Nikita Engagement Celebration",
       description: "Join us in celebrating the beautiful love story of Mayank and Nikita. Save the date for our engagement celebration!",
       location: "Gymkhana Club, Sector-8, Karnal, Haryana",
-      start: "2025-11-03T11:00:00",
-      end: "2025-11-03T23:59:00",
+      start: "2025-11-05T11:00:00",
+      end: "2025-11-05T23:59:00",
     };
 
     const googleCalendarUrl = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(
@@ -173,7 +173,7 @@ const EventDetails = () => {
             <div className="flex items-center justify-center gap-3 mb-4">
               <Calendar className="w-6 h-6 text-rose-500" />
               <span className="text-2xl md:text-3xl font-bold text-gray-800 dark:text-gray-200">
-                Monday November 3, 2025
+                Wednesday November 5, 2025
               </span>
             </div>
             <div className="flex items-center justify-center gap-3">

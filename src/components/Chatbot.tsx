@@ -70,7 +70,7 @@ export default function Chatbot({ isDark = false }: ChatbotProps) {
 
 Wedding Details:
 - Couple: Mayank and Nikita
-- Engagement Date: November 3, 2025
+- Engagement Date: November 5, 2025
 - Venue: Gymkhana Club, Sector-8, Karnal, Haryana
 - Time: 11:00 AM onwards
 - Mayank's best Friend - Akriti

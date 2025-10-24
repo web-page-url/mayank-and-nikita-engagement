@@ -5,7 +5,7 @@ import { Button } from "./ui/button";
 import AudioPlayer from "./AudioPlayer";
 
 const Hero = () => {
-  const weddingDate = new Date(2025, 10, 3, 11, 0, 0); // November 3, 2025 at 11:00 AM
+  const weddingDate = new Date(2025, 10, 5, 11, 0, 0); // November 5, 2025 at 11:00 AM
   const [timeLeft, setTimeLeft] = useState({
     days: 0,
     hours: 0,
