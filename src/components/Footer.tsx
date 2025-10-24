@@ -7,9 +7,9 @@ const Footer = () => {
     const event = {
       title: "Mayank & Nikita Engagement",
       description: "Join us in celebrating our special day!",
-      location: "The Grand Celebration Hall",
-      start: "2025-12-15T18:00:00",
-      end: "2025-12-15T23:00:00",
+      location: "Gymkhana Club, Sector-8, Karnal, Haryana",
+      start: "2025-11-05T11:00:00",
+      end: "2025-11-05T23:59:00",
     };
 
     const googleCalendarUrl = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(
