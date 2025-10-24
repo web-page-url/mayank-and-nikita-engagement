@@ -27,7 +27,7 @@ const RSVP = () => {
 
     try {
       // Google Apps Script URL - Deployed web app URL
-      const scriptURL = 'https://script.google.com/macros/s/AKfycbyai33P6gUuLZvYBc642DsP5DH3aNYuIfBTc5zP8WT0teokMdPmSDfuQqGm2YuxAnrL/exec';
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbwlbS3eWBBE74I0Qv-FGMIFQTYKVn7Hn24AEJGr4M7MDiXiAXs-Q633O35UHGjFQzw2/exec';
 
       // Prepare form data for submission
       const formDataToSend = new FormData();

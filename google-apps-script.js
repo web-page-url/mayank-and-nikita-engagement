@@ -3,7 +3,7 @@
 // 1. Create a new Google Sheet
 // 2. Go to Extensions > Apps Script
 // 3. Replace the default code with this script
-// 4. Update the SHEET_ID with your Google Sheet ID (currently: 1rwKGdqypVCDQD7wAooLrWpAALI8ugH_EdTayKACZqHM)
+// 4. Update the SHEET_ID with your Google Sheet ID (currently: 1BaLNbWzXzppKeZSVweag_AsMWDaPpbQpGkHc1cb-EQ4)
 // 5. Deploy as Web App (Execute as: Me, Who has access: Anyone)
 // 6. Copy the deployment URL and replace in your React app
 
@@ -21,7 +21,7 @@ function doPost(e) {
     console.log('Google Apps Script Debug: postData contents:', e.postData ? e.postData.contents : 'No postData');
 
     // Open the Google Sheet (replace with your actual sheet ID)
-    const SHEET_ID = '1rwKGdqypVCDQD7wAooLrWpAALI8ugH_EdTayKACZqHM';
+    const SHEET_ID = '1BaLNbWzXzppKeZSVweag_AsMWDaPpbQpGkHc1cb-EQ4';
     console.log('Google Apps Script Debug: Opening sheet with ID:', SHEET_ID);
     const sheet = SpreadsheetApp.openById(SHEET_ID).getActiveSheet();
     console.log('Google Apps Script Debug: Sheet opened successfully');

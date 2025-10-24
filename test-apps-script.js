@@ -2,7 +2,7 @@
 // Run this in browser console to test your deployment
 
 const testGoogleAppsScript = async () => {
-  const scriptURL = 'https://script.google.com/macros/s/AKfycbxUMTus3e08rz6z9_r2JwG5DhpY-11LzIpCx93oEOrDECKor-DnpJbPlaWjpJdkzVe8/exec';
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwlbS3eWBBE74I0Qv-FGMIFQTYKVn7Hn24AEJGr4M7MDiXiAXs-Q633O35UHGjFQzw2/exec';
 
   console.log('Testing Google Apps Script deployment...');
 

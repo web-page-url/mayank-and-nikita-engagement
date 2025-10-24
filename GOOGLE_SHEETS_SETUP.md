@@ -35,7 +35,7 @@ Sheet ID: 1ABC123DEF456
 
 ```javascript
 const SHEET_ID = '1ABC123DEF456'; // Replace with your actual Sheet ID
-SHEET_ID = 1WRJU8ZfisTmJVROsyDcJQbT4N01Crgfs2kr51heNem8
+SHEET_ID = '1BaLNbWzXzppKeZSVweag_AsMWDaPpbQpGkHc1cb-EQ4'
 ```
 
 ---
@@ -98,7 +98,7 @@ Your sheet will automatically create these columns:
 - **Solution**: This error is fixed in the updated code. The issue was with `no-cors` mode preventing the request body from being sent. We've switched to FormData submission which works properly with Google Apps Script.
 
 ### Issue: "Script Error" or no data appears
-1. **Check your Sheet ID** is correct: `1WRJU8ZfisTmJVROsyDcJQbT4N01Crgfs2kr51heNem8`
+1. **Check your Sheet ID** is correct: `1BaLNbWzXzppKeZSVweag_AsMWDaPpbQpGkHc1cb-EQ4`
 2. **Verify sheet name** is "RSVP" (the script uses `getActiveSheet()`)
 3. Make sure the script is deployed with "Anyone" access
 4. Check the browser console for error messages
@@ -157,9 +157,9 @@ if (!data.name || !data.whatsapp) {
 ## 🔍 DEBUGGING CHECKLIST (If Still Not Working)
 
 ### Step 1: Verify Sheet Setup
-1. **Sheet URL**: `https://docs.google.com/spreadsheets/d/1WRJU8ZfisTmJVROsyDcJQbT4N01Crgfs2kr51heNem8/edit`
+1. **Sheet URL**: `https://docs.google.com/spreadsheets/d/1BaLNbWzXzppKeZSVweag_AsMWDaPpbQpGkHc1cb-EQ4/edit`
 2. **First tab name**: Must be "RSVP" (rename from "Sheet1" if needed)
-3. **Sheet ID**: `1WRJU8ZfisTmJVROsyDcJQbT4N01Crgfs2kr51heNem8`
+3. **Sheet ID**: `1BaLNbWzXzppKeZSVweag_AsMWDaPpbQpGkHc1cb-EQ4`
 
 ### Step 2: Test Apps Script Directly
 1. **In Apps Script editor**: **Run → testScript**
