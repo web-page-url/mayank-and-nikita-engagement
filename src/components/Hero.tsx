@@ -48,12 +48,12 @@ const Hero = () => {
       {/* Background Image */}
       <picture className="absolute inset-0">
         {/* Large screens */}
-        <source media="(min-width: 1024px)" srcSet="/hero-section.jpeg" />
+        <source media="(min-width: 1024px)" srcSet="/manik-hero-5.jpeg" />
         {/* Medium screens */}
-        <source media="(min-width: 768px)" srcSet="/hero-section.jpeg" />
+        <source media="(min-width: 768px)" srcSet="/manik-hero-5.jpeg" />
         {/* Small screens */}
         <img
-          src="/hero-section.jpeg"
+          src="/manik-hero-5.jpeg"
           alt="Mayank & Nikita - Our Forever Begins"
           className="w-full h-full object-cover object-center"
           loading="eager"
@@ -120,7 +120,7 @@ const Hero = () => {
 
           {/* Countdown */}
           <motion.div
-            className="flex flex-wrap justify-center gap-3 sm:gap-4 md:gap-6 lg:gap-8 mt-8 sm:mt-10 md:mt-12 px-4"
+            className="flex flex-wrap justify-center gap-3 sm:gap-4 md:gap-6 lg:gap-8 mt-16 sm:mt-20 md:mt-24 lg:mt-32 px-4"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.9 }}

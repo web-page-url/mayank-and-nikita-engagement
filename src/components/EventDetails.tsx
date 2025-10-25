@@ -45,8 +45,17 @@ const EventDetails = () => {
               <CarouselItem>
                 <div className="relative overflow-hidden rounded-2xl shadow-2xl">
                   <img
+                    src="/manik-hero.jpeg"
+                    alt="Mayank & Nikita - Hero Memory"
+                    className="w-full h-64 md:h-80 object-cover"
+                  />
+                </div>
+              </CarouselItem>
+              <CarouselItem>
+                <div className="relative overflow-hidden rounded-2xl shadow-2xl">
+                  <img
                     src="/mayank-nikita-1.jpeg"
-                    alt=" - Memory 1"
+                    alt="Mayank & Nikita - Memory 1"
                     className="w-full h-64 md:h-80 object-cover"
                   />
                 </div>
@@ -55,7 +64,7 @@ const EventDetails = () => {
                 <div className="relative overflow-hidden rounded-2xl shadow-2xl">
                   <img
                     src="/mayank-nikita-2.jpeg"
-                    alt=" - Memory 2"
+                    alt="Mayank & Nikita - Memory 2"
                     className="w-full h-64 md:h-80 object-cover"
                   />
                 </div>
@@ -64,7 +73,7 @@ const EventDetails = () => {
                 <div className="relative overflow-hidden rounded-2xl shadow-2xl">
                   <img
                     src="/mayank-nikita-3.jpeg"
-                    alt=" - Memory 3"
+                    alt="Mayank & Nikita - Memory 3"
                     className="w-full h-64 md:h-80 object-cover"
                   />
                 </div>
@@ -73,7 +82,7 @@ const EventDetails = () => {
                 <div className="relative overflow-hidden rounded-2xl shadow-2xl">
                   <img
                     src="/mayank-nikita-4.jpeg"
-                    alt=" - Memory 4"
+                    alt="Mayank & Nikita - Memory 4"
                     className="w-full h-64 md:h-80 object-cover"
                   />
                 </div>
@@ -82,7 +91,7 @@ const EventDetails = () => {
                 <div className="relative overflow-hidden rounded-2xl shadow-2xl">
                   <img
                     src="/mayank-nikita-5.jpeg"
-                    alt=" - Memory 5"
+                    alt="Mayank & Nikita - Memory 5"
                     className="w-full h-64 md:h-80 object-cover"
                   />
                 </div>
