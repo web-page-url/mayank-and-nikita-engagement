@@ -12,7 +12,7 @@ const EventDetails = () => {
     const event = {
       title: "Mayank & Nikita Engagement Celebration",
       description: "Join us in celebrating the beautiful love story of Mayank and Nikita. Save the date for our engagement celebration!",
-      location: "Gymkhana Club, Sector-8, Karnal, Haryana",
+      location: "Rasara, Baliya",
       start: "2025-11-05T11:00:00",
       end: "2025-11-05T23:59:00",
     };
@@ -205,7 +205,7 @@ const EventDetails = () => {
               <MapPin className="w-6 h-6 text-purple-500" />
               <div className="text-center">
                 <p className="text-xl md:text-2xl font-bold text-gray-800 dark:text-gray-200 mb-1">
-                  Gymkhana Club
+                  Rasara, Baliya
                 </p>
                 <p className="text-lg text-gray-600 dark:text-gray-400">
                   Sector-8, Karnal, Haryana

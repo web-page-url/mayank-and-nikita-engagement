@@ -7,7 +7,7 @@ const Footer = () => {
     const event = {
       title: "Mayank & Nikita Engagement",
       description: "Join us in celebrating our special day!",
-      location: "Gymkhana Club, Sector-8, Karnal, Haryana",
+      location: "Rasara, Baliya",
       start: "2025-11-05T11:00:00",
       end: "2025-11-05T23:59:00",
     };
