@@ -7,7 +7,7 @@ const Footer = () => {
     const event = {
       title: "Mayank & Nikita Engagement",
       description: "Join us in celebrating our special day!",
-      location: "Rasara, Baliya",
+      location: "Radhika Marriage hall, Ward No 11, Yadav Nagar, Trimuhani, Belthra Road, Ballia",
       start: "2025-11-05T11:00:00",
       end: "2025-11-05T23:59:00",
     };

@@ -5,14 +5,14 @@ import { Button } from "./ui/button";
 
 const EventDetails = () => {
   const openMap = () => {
-    window.open("https://maps.app.goo.gl/Vc8fYtoZ9bhpfjJi8", "_blank");
+    window.open("https://www.google.com/maps/place/Ward+No+11,+Yadav+Nagar,+Trimuhani,+Belthra+Road,+Ballia,+Uttar+Pradesh,+India/@26.0467675,83.780489,15z/data=!3m1!4b1!4m6!3m5!1s0x399237b864022e1d:0x1a54e6616c15e564!8m2!3d26.0467675!4d83.780489!16s%2Fg%2F11c1q8z8z8z?entry=ttu", "_blank");
   };
 
   const addToCalendar = () => {
     const event = {
       title: "Mayank & Nikita Engagement Celebration",
       description: "Join us in celebrating the beautiful love story of Mayank and Nikita. Save the date for our engagement celebration!",
-      location: "Rasara, Baliya",
+      location: "Radhika Marriage hall, Ward No 11, Yadav Nagar, Trimuhani, Belthra Road, Ballia, Uttar Pradesh, India",
       start: "2025-11-05T11:00:00",
       end: "2025-11-05T23:59:00",
     };
@@ -205,13 +205,36 @@ const EventDetails = () => {
               <MapPin className="w-6 h-6 text-purple-500" />
               <div className="text-center">
                 <p className="text-xl md:text-2xl font-bold text-gray-800 dark:text-gray-200 mb-1">
-                  Rasara, Baliya
+                  Radhika Marriage hall, Ward No 11, Yadav Nagar, Trimuhani, Belthra Road, Ballia
                 </p>
                 <p className="text-lg text-gray-600 dark:text-gray-400">
-                  Sector-8, Karnal, Haryana
+                  Uttar Pradesh, India
                 </p>
               </div>
             </div>
+
+            {/* Embedded Map */}
+            <motion.div
+              initial={{ opacity: 0, scale: 0.95 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, delay: 1.2 }}
+              className="mt-8 mb-6"
+            >
+              <div className="w-full max-w-4xl mx-auto rounded-2xl overflow-hidden shadow-2xl border-4 border-white/20">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d114707.07601008659!2d83.78048897467079!3d26.046767476683442!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399237b864022e1d%3A0x1a54e6616c15e564!2sRadhika%20Marriage%20hall!5e0!3m2!1sen!2sin!4v1761451815010!5m2!1sen!2sin"
+                  width="100%"
+                  height="400"
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title="Event Location - Radhika Marriage Hall"
+                  className="w-full h-[300px] sm:h-[350px] md:h-[400px]"
+                ></iframe>
+              </div>
+            </motion.div>
 
             <div className="flex flex-col sm:flex-row justify-center gap-4 mt-6">
               <motion.button

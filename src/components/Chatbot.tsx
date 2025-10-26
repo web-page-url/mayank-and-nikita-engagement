@@ -71,12 +71,13 @@ export default function Chatbot({ isDark = false }: ChatbotProps) {
 Wedding Details:
 - Couple: Mayank and Nikita
 - Engagement Date: November 5, 2025
-- Venue: Gymkhana Club, Sector-8, Karnal, Haryana
+- Venue: Radhika Marriage hall, Ward No 11, Yadav Nagar, Trimuhani, Belthra Road, Ballia
 - Time: 11:00 AM onwards
 - Mayank's brother - Anubhav, Monty, Arpit
 - Mayank's sister - Muskan, Akriti
 - Mayank is the son of Mr. & Mrs. Manoj Kumar and Mrs. Seema Devi
 - Mayank is Post Master at Post Office, 
+- Who created you - Anubhav
 - Mayank also do the treatment of Patients in free time.
 - Dress Code: Evening Elegance - Join us in your finest attire to celebrate this magical evening. Think cocktail dresses, elegant suits, and a touch of romance in your style.
 - Theme: Romantic celebration with love, joy, and beautiful memories
